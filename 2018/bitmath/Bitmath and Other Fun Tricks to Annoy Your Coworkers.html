@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html class=" js no-mobile desktop no-ie ff ff61 bitmath-section w-1752 gt-240 gt-320 gt-480 gt-640 gt-768 gt-800 gt-1024 gt-1280 gt-1440 gt-1680 lt-1920 no-portrait landscape gradient rgba opacity textshadow multiplebgs boxshadow borderimage borderradius no-cssreflections csstransforms csstransitions no-touch no-retina fontface domloaded" id="index-page"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>Bitmath and Other Fun Tricks to Annoy Your Coworkers</title>
+
+        <link rel="stylesheet" href="Bitmath%20and%20Other%20Fun%20Tricks%20to%20Annoy%20Your%20Coworkers_files/reveal.css">
+        <link rel="stylesheet" href="Bitmath%20and%20Other%20Fun%20Tricks%20to%20Annoy%20Your%20Coworkers_files/terminal.css">
+
+        <link rel="stylesheet" href="Bitmath%20and%20Other%20Fun%20Tricks%20to%20Annoy%20Your%20Coworkers_files/zenburn.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script><link rel="stylesheet" type="text/css" href="Bitmath%20and%20Other%20Fun%20Tricks%20to%20Annoy%20Your%20Coworkers_files/paper.css"><script type="text/javascript" src="Bitmath%20and%20Other%20Fun%20Tricks%20to%20Annoy%20Your%20Coworkers_files/marked.js"></script><script type="text/javascript" src="Bitmath%20and%20Other%20Fun%20Tricks%20to%20Annoy%20Your%20Coworkers_files/markdown.js"></script><script type="text/javascript" src="Bitmath%20and%20Other%20Fun%20Tricks%20to%20Annoy%20Your%20Coworkers_files/notes.js"></script><script type="text/javascript" src="Bitmath%20and%20Other%20Fun%20Tricks%20to%20Annoy%20Your%20Coworkers_files/highlight.js"></script>
+    </head>
+    <body>
+        <div class="reveal slide center has-vertical-slides has-horizontal-slides ready" role="application" data-transition-speed="default" data-background-transition="fade">
+            <div class="slides" style="width: 960px; height: 700px; left: 50%; top: 50%; bottom: auto; right: auto; transform: translate(-50%, -50%) scale(1.30697);">
+                <section style="top: 145.5px; display: block;" class="present">
+                    <h1>Bitmath</h1>
+                    <h2>And Other Fun Tricks to Annoy Your Coworkers</h2>
+                    <p>Austin Fuller</p>
+                </section>
+                <section style="top: 184.5px; display: block;" aria-hidden="true" class="future" hidden="">
+                    <h2>About Me:</h2>
+                    <ul>
+                        <li class="fragment" data-fragment-index="0">My name is Austin Fuller.</li>
+                        <li class="fragment" data-fragment-index="1">College Dropout</li>
+                        <li class="fragment" data-fragment-index="2">Post bad code on the internet.</li>
+                        <li class="fragment" data-fragment-index="3">Sometimes I even get paid for it.</li>
+                    </ul>
+                </section>
+                <section style="top: 0px; display: block;" aria-hidden="true" class="stack future" hidden="">
+                    <h2>Motivation</h2>
+                    <section style="top: 141px; display: block;">
+                        <img class="fragment" src="Bitmath%20and%20Other%20Fun%20Tricks%20to%20Annoy%20Your%20Coworkers_files/but-why.gif" data-fragment-index="0">
+                    </section>
+                    <section class="future" aria-hidden="true" style="top: 350px; display: none;">
+                        <ul>
+                            <li>Performance*</li>
+                            <li class="fragment" data-fragment-index="0">Idiomatic code</li>
+                            <li class="fragment" data-fragment-index="1">Obfuscation</li>
+                            <li class="fragment" data-fragment-index="2">Deobfuscation</li>
+                        </ul>
+                    </section>
+                    <section class="future" aria-hidden="true" style="top: 350px; display: none;">
+                        <iframe src="Bitmath%20and%20Other%20Fun%20Tricks%20to%20Annoy%20Your%20Coworkers_files/bSkpMdDe4g4.html" allow="autoplay; encrypted-media" allowfullscreen="" width="720" height="480" frameborder="0"></iframe>
+                    </section>
+                </section>
+                <section style="top: 350px; display: none;" aria-hidden="true" class="future" hidden="">
+                    <h2>Bitmath?</h2>
+                    <p class="fragment" data-fragment-index="0">Code involving bitwise operations.</p>
+                    <p class="fragment" data-fragment-index="1">Computers use binary for math.</p>
+                    <p class="fragment" data-fragment-index="2">Digits are in the form of <code>bit*(2^place)</code> instead of <code>digit*(10^place)</code>.</p>
+                    <p class="fragment" data-fragment-index="3">Binary digits (bits) hold boolean values.</p>
+                    <p class="fragment" data-fragment-index="4">Integers are arrays of bits.</p>
+                </section>
+                <section style="top: 350px; display: none;" aria-hidden="true" class="future" hidden="">
+                    <h2>Bitwise operations</h2>
+                    <ul>
+                        <li class="fragment" data-fragment-index="0">Bitwise versions of boolean operations.
+                            <ul>
+                                <li>And: <code>&amp;</code></li>
+                                <li>Or: <code>|</code></li>
+                                <li>Xor: <code>^</code></li>
+                                <li>Not: <code>~</code></li>
+                            </ul>
+                        </li>
+                        <li class="fragment" data-fragment-index="1">Bitshifting.
+                            <ul>
+                                <li>Left: <code>&lt;&lt;</code></li>
+                                <li>Right: <code>&gt;&gt;</code></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section style="top: 350px; display: none;" aria-hidden="true" class="future" hidden="">
+                    <h2>Examples</h2>
+                    <p>Yay, demo.</p>
+                </section>
+                <section style="top: 350px; display: none;" aria-hidden="true" class="future" hidden="">
+                    <h2>Bitwise Operations</h2>
+                    <ul>
+                        <li class="fragment" data-fragment-index="0">Or
+                            <p>Set individual bits</p></li>
+                        <li class="fragment" data-fragment-index="1">And
+                            <p>Isolate individual bits.</p></li>
+                        <li class="fragment" data-fragment-index="2">Xor
+                            <p>Toggle individual bits</p></li>
+                        <li class="fragment" data-fragment-index="3">Not
+                            <p>Flips all bits</p></li>
+                    </ul>
+                </section>
+                <section style="top: 350px; display: none;" aria-hidden="true" class="future" hidden="">
+                    <h2>Bitwise Operations</h2>
+                    <ul>
+                        <li class="fragment" data-fragment-index="0">Bitshift Left
+                            <p>Multiply by power of 2.</p>
+                        </li>
+                        <li class="fragment" data-fragment-index="1">Bitshift Right
+                            <p>Divide by a power of 2, and floor.</p>
+                        </li>
+                    </ul>
+                </section>
+                <section style="top: 350px; display: none;" aria-hidden="true" class="future" hidden="">
+                    <h2>Boolean Operations on integers</h2>
+                    <p class="fragment" data-fragment-index="0">In C (and a few other languages), any non-zero integers are truthy.</p>
+                    <p class="fragment" data-fragment-index="1">Boolean not (<code>!</code> or <code>not</code>) is equavalent to checking equality to zero.</p>
+                    <p class="fragment" data-fragment-index="2">Returned booleans are either 0 (true) or 1 (false).</p>
+                    <p class="fragment" data-fragment-index="3">Bitwise operations are allowed on boolean values.</p>
+                </section>
+                <section style="top: 350px; display: none;" aria-hidden="true" class="stack future" hidden="">
+                    <h2>Fizzbuzz</h2>
+                    <section style="top: 350px; display: none;">
+                        <p class="fragment" data-fragment-index="0">Very simple problem, meant to test for baseline programming ability.</p>
+                        <p class="fragment" data-fragment-index="1">Divisible by 3 gets "Fizz"</p>
+                        <p class="fragment" data-fragment-index="2">Divisible by 5 gets "Buzz"</p>
+                        <p class="fragment" data-fragment-index="3">Divisible by both gets "Fizzbuzz"</p>
+                        <p class="fragment" data-fragment-index="4">Otherwise just print n.</p>
+                    </section>
+                    <section class="future" aria-hidden="true" style="top: 350px; display: none;">
+                        <pre><code data-trim="" data-noescape="" class="hljs cpp"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> </span><stdio.h>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> </span><stdbool.h>
+
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">for</span>(<span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">int</span> i=<span class="hljs-number">1</span>; i&lt;=<span class="hljs-number">100</span>; ++i){
+        <span class="hljs-keyword">bool</span> div_3 = i % <span class="hljs-number">3</span> == <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">bool</span> div_5 = i % <span class="hljs-number">5</span> == <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">if</span>(div_3 &amp;&amp; div_5){
+            <span class="hljs-built_in">puts</span>(<span class="hljs-string">"Fizzbuzz"</span>);
+        }
+        <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(div_3){
+            <span class="hljs-built_in">puts</span>(<span class="hljs-string">"Fizz"</span>);
+        }
+        <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(div_5){
+            <span class="hljs-built_in">puts</span>(<span class="hljs-string">"Buzz"</span>);
+        }
+        <span class="hljs-keyword">else</span>{
+            <span class="hljs-built_in">printf</span>(<span class="hljs-string">"%u\n"</span>, i);
+        }
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+                        </stdbool.h></stdio.h></code></pre>
+                    </section>
+                    <section class="future" aria-hidden="true" style="top: 350px; display: none;">
+                        <pre><code data-trim="" data-noescape="" class="hljs cpp"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> </span><stdio.h>
+
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">char</span> buf[<span class="hljs-number">4</span>];
+    <span class="hljs-keyword">char</span>* arr[] = {
+        buf,
+        <span class="hljs-string">"Buzz"</span>,
+        <span class="hljs-string">"Fizz"</span>,
+        <span class="hljs-string">"Fizzbuzz"</span>,
+    };
+    <span class="hljs-keyword">for</span>(<span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">int</span> i=<span class="hljs-number">1</span>; i&lt;=<span class="hljs-number">100</span>; ++i){
+        <span class="hljs-built_in">sprintf</span>(buf, <span class="hljs-string">"%u"</span>, i);
+        <span class="hljs-built_in">puts</span>(arr[!(i%<span class="hljs-number">5</span>)|(!(i%<span class="hljs-number">3</span>)&lt;&lt;<span class="hljs-number">1</span>)]);
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+                        </stdio.h></code></pre>
+                    </section>
+                </section>
+                <section style="top: 350px; display: none;" aria-hidden="true" class="stack future" hidden="">
+                    <section style="top: 350px; display: none;">
+                        <h2>Rock Paper Scissors Lizard Spock</h2>
+                        <img src="Bitmath%20and%20Other%20Fun%20Tricks%20to%20Annoy%20Your%20Coworkers_files/rpsls.jpg">
+                    </section>
+                    <section class="future" aria-hidden="true" style="top: 350px; display: none;">
+                        <pre><code data-trim="" data-noescape="" class="hljs python"><span class="hljs-comment">#!/usr/bin/env python3</span>
+<span class="hljs-keyword">from</span> random <span class="hljs-keyword">import</span> randint
+
+options = [<span class="hljs-string">"rock"</span>,<span class="hljs-string">"paper"</span>,<span class="hljs-string">"scissors"</span>,<span class="hljs-string">"lizard"</span>,<span class="hljs-string">"spock"</span>]
+magic = <span class="hljs-number">5843500</span>
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">game_iteration</span><span class="hljs-params">()</span>:</span>
+    user_in = input(<span class="hljs-string">"Rock, paper, scissors, lizard, spock?\n"</span>).lower()
+
+    <span class="hljs-keyword">if</span> user_in == <span class="hljs-string">"exit"</span>:
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">False</span>
+
+    <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> user_in <span class="hljs-keyword">in</span> options:
+        print(<span class="hljs-string">"Bad input."</span>)
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">True</span>
+
+    user = options.index(user_in)
+    ai = randint(<span class="hljs-number">0</span>,<span class="hljs-number">4</span>)
+    print(<span class="hljs-string">"Player: "</span>,options[user].capitalize())
+    print(<span class="hljs-string">"Computer: "</span>,options[ai].capitalize())
+
+    <span class="hljs-keyword">if</span> user == ai:
+        print(<span class="hljs-string">"Tie"</span>)
+    <span class="hljs-keyword">else</span>:
+        <span class="hljs-keyword">if</span> (magic&gt;&gt;(user*<span class="hljs-number">5</span>+ai))&amp;<span class="hljs-number">1</span>:
+            print(<span class="hljs-string">"You win!"</span>)
+        <span class="hljs-keyword">else</span>:
+            print(<span class="hljs-string">"You lose."</span>)
+
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">True</span>
+
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>:</span>
+    <span class="hljs-keyword">while</span> game_iteration():
+        <span class="hljs-keyword">pass</span>
+
+<span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">"__main__"</span>:
+    main()</code></pre>
+                    </section>
+                    <section class="future" aria-hidden="true" style="top: 350px; display: none;">
+                        <pre><code data-trim="" data-noescape="" class="hljs python">magic = <span class="hljs-number">5843500</span>
+...
+<span class="hljs-keyword">if</span> (magic&gt;&gt;(user*<span class="hljs-number">5</span>+ai))&amp;<span class="hljs-number">1</span>:
+            print(<span class="hljs-string">"You win!"</span>)
+        <span class="hljs-keyword">else</span>:
+            print(<span class="hljs-string">"You lose."</span>)</code></pre>
+                        <img class="fragment" src="Bitmath%20and%20Other%20Fun%20Tricks%20to%20Annoy%20Your%20Coworkers_files/huh.gif" data-fragment-index="0">
+                    </section>
+                    <section class="future" aria-hidden="true" style="top: 350px; display: none;">
+                        <img src="Bitmath%20and%20Other%20Fun%20Tricks%20to%20Annoy%20Your%20Coworkers_files/notes.jpg">
+                    </section>
+                </section>
+                <section style="top: 350px; display: none;" aria-hidden="true" class="stack future" hidden="">
+                    <h2>Some other links and stuff.</h2>
+                    <p><a href="https://redd.it/8tuima">That one reddit thread.</a></p>
+                    <p><a href="http://graphics.stanford.edu/~seander/bithacks.html">Stanford page of bit twiddling hacks.</a></p>
+                    <p><a href="https://github.com/auxiliary-character/bitmath-examples/">Github repo for examples</a></p>
+                <section style="top: 350px; display: none;">
+                    <h1>The End!</h1>
+                </section>
+            </section></div>
+        <div class="backgrounds"><div class="slide-background present" style="display: block;" data-loaded="true"></div><div class="slide-background future" style="display: block;" data-loaded="true"></div><div class="slide-background stack future" style="display: block;" data-loaded="true"><div class="slide-background present" style="display: block;" data-loaded="true"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background stack future" style="display: none;"><div class="slide-background present" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack future" style="display: none;"><div class="slide-background present" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div></div><div class="slide-background stack future" style="display: none;"><div class="slide-background present" style="display: none;"></div></div></div><div class="progress" style="display: block;"><span style="width: 0px;"></span></div><aside class="controls" style="display: block;" data-controls-layout="bottom-right" data-controls-back-arrows="faded"><button class="navigate-left" aria-label="previous slide" disabled="disabled"><div class="controls-arrow"></div></button><button class="navigate-right enabled highlight" aria-label="next slide"><div class="controls-arrow"></div></button><button class="navigate-up" aria-label="above slide" disabled="disabled"><div class="controls-arrow"></div></button><button class="navigate-down" aria-label="below slide" disabled="disabled"><div class="controls-arrow"></div></button></aside><div class="slide-number" style="display: none;"></div><div class="speaker-notes" data-prevent-swipe="" tabindex="0"></div><div class="pause-overlay"></div><div style="position: absolute; height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);" id="aria-status-div" aria-live="polite" aria-atomic="true">
+                    Bitmath
+                    And Other Fun Tricks to Annoy Your Coworkers
+                    Austin Fuller
+                </div></div>
+
+        <script src="Bitmath%20and%20Other%20Fun%20Tricks%20to%20Annoy%20Your%20Coworkers_files/head.js"></script>
+        <script src="Bitmath%20and%20Other%20Fun%20Tricks%20to%20Annoy%20Your%20Coworkers_files/reveal.js"></script>
+
+        <script>
+            // More info about config & dependencies:
+            // - https://github.com/hakimel/reveal.js#configuration
+            // - https://github.com/hakimel/reveal.js#dependencies
+            Reveal.initialize({
+                dependencies: [
+                    { src: 'plugin/markdown/marked.js' },
+                    { src: 'plugin/markdown/markdown.js' },
+                    { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+                ]
+            });
+        </script>
+    
+
+</body></html>
